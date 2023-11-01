@@ -1,0 +1,24 @@
+Parsing(Парсинг) — это процесс сбора, обработки и анализа данных. В качестве их источника может выступать веб-сайт.
+
+при создании проекта мы создаем виртуальное окружение
+
+python3 -m venv {название вирт. окружение}
+
+чтобы активировать вирт. окружение вводим след команду
+source {название вирт. окружение}/bin/activate
+
+pip install {название модуля(библиотеки)}
+
+find_all - это 
+find - это 
+get - это
+csv - это (exell, файл с таблицами) 
+pip install -r {название файла}
+
+response = requests.get('https://enter.kg/computers/noutbuki_bishkek')
+print(response.text)
+
+soup = BS(response.text, 'lxml')
+soup.find('div', class_='item')
+soup.find_all()
+soup.get()
